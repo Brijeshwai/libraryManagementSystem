@@ -1,0 +1,21 @@
+        else if(ae.getSource() == btn6){
+            setVisible(false);
+            new About();
+        }
+        else if(ae.getSource() == btn7){
+            setVisible(false);
+            new UserDetails();
+        }
+        else if(ae.getSource() == btn8){
+            setVisible(false);
+            new IssuedBooks();
+        }
+        else{
+            setVisible(false);
+            new Section();
+        }
+    }
+    public static void main(String[] args) {
+	    new Dashboard();
+    }
+}
